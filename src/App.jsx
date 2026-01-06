@@ -1,8 +1,18 @@
 import React from 'react'
+import ListItem from './components/ListItem'
 
 const App = () => {
   return (
-    <div className='bg-red-500 text-4xl text-white'>App</div>
+    <>
+    <ListItem  text="Home"/>
+    <ListItem  text="About"/>
+    <ListItem  text="Service"/>
+    <ListItem  text="Blog"/>
+    <ListItem  text="Contact"/>
+    
+  
+   
+    </>
   )
 }
 
