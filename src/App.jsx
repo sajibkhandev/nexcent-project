@@ -1,18 +1,14 @@
 import React from 'react'
-import ListItem from './components/ListItem'
+import Navber from './layouts/Navber'
+import Bannar from './layouts/Bannar'
 
 const App = () => {
   return (
-    <>
-    <ListItem  text="Home"/>
-    <ListItem  text="About"/>
-    <ListItem  text="Service"/>
-    <ListItem  text="Blog"/>
-    <ListItem  text="Contact"/>
-    
-  
-   
-    </>
+    <div>
+      <Navber/>
+      <Bannar/>
+      
+    </div>
   )
 }
 
