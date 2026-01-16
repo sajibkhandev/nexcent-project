@@ -3,8 +3,8 @@ import Navber from './layouts/Navber'
 import Bannar from './layouts/Bannar'
 import Client from './layouts/Client'
 import Spending from './layouts/Spending'
-import Heading from './components/Heading'
-import SubHeading from './components/SubHeading'
+import Business from './layouts/Business'
+import Design from './layouts/Design'
 
 const App = () => {
   return (
@@ -13,6 +13,8 @@ const App = () => {
       <Bannar/>
       <Client/>
       <Spending/>
+      <Business/>
+      <Design/>
      
       
     </div>
