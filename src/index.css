@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.main{
+    overflow: hidden;
+    transition: .4s;
+
+}
+.overly{
+    top: 70%;
+    transition: .4s;
+    opacity: 0;
+
+}
+.main:hover .overly{
+    top: 65%;
+    opacity: 1;
+
+}
+.main:hover{
+    overflow: visible;
+
+}

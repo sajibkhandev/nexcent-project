@@ -5,6 +5,8 @@ import Client from './layouts/Client'
 import Spending from './layouts/Spending'
 import Business from './layouts/Business'
 import Design from './layouts/Design'
+import Customer from './layouts/Customer'
+import Marketing from './layouts/Marketing'
 
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
       <Spending/>
       <Business/>
       <Design/>
+      <Customer/>
+      <Marketing/>
      
       
     </div>
