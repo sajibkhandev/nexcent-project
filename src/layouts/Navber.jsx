@@ -26,8 +26,8 @@ const Navber = () => {
                 </ul>
             </div>
             <div>
-                <Button text="Login"/>
-                <Button className='ml-3.5' text="Sign up"/>
+                <Button  text="Login"/>
+                <Button  className='ml-3.5' text="Sign up"/>
             </div>
         </Flex>
     </Container>

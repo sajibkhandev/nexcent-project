@@ -7,6 +7,8 @@ import Business from './layouts/Business'
 import Design from './layouts/Design'
 import Customer from './layouts/Customer'
 import Marketing from './layouts/Marketing'
+import Demo from './layouts/Demo'
+import Footer from './layouts/Footer'
 
 const App = () => {
   return (
@@ -19,6 +21,8 @@ const App = () => {
       <Design/>
       <Customer/>
       <Marketing/>
+      <Demo/>
+      <Footer/>
      
       
     </div>
