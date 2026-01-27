@@ -7,16 +7,16 @@ import Button from '../components/Button'
 
 const Bannar = () => {
   return (
-    <section className='py-[96px] bg-[#F5F7FA]'>
+    <section className='py-14 md:py-[96px]  bg-[#F5F7FA]'>
         <Container>
-        <Flex className='items-center'>
-        <div className='w-8/12'>
-           <h1 className='w-[657px] text-[64px] text-[#4D4D4D] font-semibold font-inter'>Lessons and insights <span className='text-[#4CAF4F]'>from 8 years</span></h1>
+        <Flex className='!block md:!flex items-center '>
+        <div className='md:w-8/12 text-center md:text-left px-3 md:px-0'>
+           <h1 className='text-[30px] w-auto       md:w-[657px] md:text-[64px] text-[#4D4D4D] font-semibold font-inter'>Lessons and insights <span className='text-[#4CAF4F]'>from 8 years</span></h1>
            <p className='text-base text-[#717171] font-normal font-inter pt-4 pb-8'>Where to grow your business as a photographer: site or social media?</p>
            <Button text="Register"/>
         </div>
-        <div className='w-4/12'>
-        <Image src={BannarImage}/>
+        <div className='md:w-4/12 mt-10 md:mt-0'>
+        <Image className='w-4/6 mx-auto md:w-full ' src={BannarImage}/>
         </div>
 
         </Flex>
