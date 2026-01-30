@@ -11,7 +11,7 @@ const Bannar = () => {
         <Container>
         <Flex className='!block md:!flex items-center '>
         <div className='md:w-8/12 text-center md:text-left px-3 md:px-0'>
-           <h1 className='text-[30px] w-auto       md:w-[657px] md:text-[64px] text-[#4D4D4D] font-semibold font-inter'>Lessons and insights <span className='text-[#4CAF4F]'>from 8 years</span></h1>
+           <h1 className='w-auto md:w-[657px] text-[30px] sm:text-[36px] md:text-[64px] text-[#4D4D4D] font-semibold font-inter'>Lessons and insights <span className='text-[#4CAF4F]'>from 8 years</span></h1>
            <p className='text-base text-[#717171] font-normal font-inter pt-4 pb-8'>Where to grow your business as a photographer: site or social media?</p>
            <Button text="Register"/>
         </div>

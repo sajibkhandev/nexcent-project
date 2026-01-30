@@ -9,8 +9,8 @@ const BusinessCard = ({image,headingtext,normaltext}) => {
      <Flex className='items-center gap-x-4'>
         <Image src={image}/>
         <div>
-            <h2 className='text-[28px] text-secondary font-semibold font-inter'>{headingtext}</h2>
-            <p className='text-base text-gray font-normal font-inter'>{normaltext}</p>
+            <h2 className='text-xl md:text-[28px] text-secondary font-semibold font-inter'>{headingtext}</h2>
+            <p className='text-sm md:text-base text-gray font-normal font-inter'>{normaltext}</p>
         </div>
      </Flex>
      </>

@@ -11,8 +11,8 @@ const Footer = () => {
     return (
         <footer className='py-16 bg-[#263238]'>
             <Container>
-                <Flex>
-                    <div className='w-5/12'>
+                <Flex className='!block md:!flex px-4 md:px-0'>
+                    <div className='md:w-5/12'>
                        <Image src={FooterLogo}/>
                        <p className='text-[#F5F7FA] text-sm font-inter font-normal pt-10 pb-2'>Copyright © 2020 Nexcent ltd.</p>
                        <p className='text-[#F5F7FA] text-sm font-inter font-normal '>All rights reserved</p>
@@ -24,7 +24,7 @@ const Footer = () => {
                         <li className='w-[30px] h-[30px] bg-[#3C464C] rounded-full flex items-center justify-center'><FaInstagram className=' text-white'/></li>
                        </ul>
                     </div>
-                    <div className='w-2/12 '>
+                    <div className='md:w-2/12 '>
                       <strong className='text-xl text-[#F5F7FA] font-inter font-semibold '>Company</strong>
                      <ul className='flex flex-col gap-y-3 mt-6'>
                         <ListItem className='text-[#F5F7FA]' text="About us"/>
@@ -35,7 +35,7 @@ const Footer = () => {
                         
                      </ul>
                     </div>
-                    <div className='w-2/12 '>
+                    <div className='md:w-2/12 '>
                       <strong className='text-xl text-[#F5F7FA] font-inter font-semibold '>Support</strong>
                      <ul className='flex flex-col gap-y-3 mt-6'>
                         <ListItem className='text-[#F5F7FA]' text="Help center"/>
@@ -47,7 +47,7 @@ const Footer = () => {
                      </ul>
                     </div>
                    
-                    <div className='w-3/12 '>
+                    <div className='md:w-3/12 '>
                      <strong className='text-xl text-[#F5F7FA] font-inter font-semibold '>Stay up to date</strong>
                     <div className=' relative w-[255px]  mt-6'>
                          <input className='text-white w-full bg-[#515B60] rounded-md py-2 px-3' type="text" placeholder='Your email address'/>

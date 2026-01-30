@@ -11,15 +11,15 @@ const Business = () => {
   return (
     <section className='bg-[#F5F7FA] py-[84px]'>
         <Container>
-        <Flex className='items-center'>
-            <div className='w-1/2'>
-            <Heading text="Helping a local"/>
-            <span className='inline-block pt-2 text-4xl text-primary font-inter font-semibold'>business reinvent itself</span>
+        <Flex className='!block md:!flex items-center px-3 md:px-0'>
+            <div className='md:w-1/2 text-center md:text-left'>
+            <Heading  text="Helping a local"/>
+            <span className=' !inline-block pt-2 text-3xl md:text-4xl text-primary font-inter font-semibold'>business reinvent itself</span>
             <SubHeading className='pt-2' text="We reached here with our hard work and dedication"/>
             </div>
-            <div className='w-1/2'>
+            <div className='md:w-1/2'>
 
-           <Flex className='flex-wrap gap-x-[30px] gap-y-10'>
+           <Flex className='justify-center md:justify-start flex-wrap  gap-x-[30px] gap-y-10 pt-10 md:pt-0'>
              <BusinessCard image={IconOne} headingtext="2,245,341" normaltext="Members"/>
              <BusinessCard image={IconOne} headingtext="2,245,341" normaltext="Members"/>
              <BusinessCard image={IconTwo} headingtext="828,867" normaltext="Event Bookings"/>
